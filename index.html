@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enacts</title>
+</head>
+<body>
+    <!-- Style Css -->
+    <style>
+        *{
+            padding: 0;
+            margin: 0
+        }
+        body {
+            text-align: center;
+            background-image:url(/image.jpj.jpg) ;
+            background-size: 100%;
+            background-repeat: repeat-y;
+            color: rgb(10, 2, 2);
+            font-family: sans-serif;
+        }
+        .main {
+            background-color: rgba(0, 100, 0,0);
+            display: inline-block;
+            margin: 120px 100px 100px 70px;
+            width: 270px;
+            padding: 4px 10px 10px 25px;
+            border-radius: 12px;
+            border:2px solid rgba(255, 255, 255, 0.3)
+        }
+        h2 {
+            margin: 8px 4px 20px 52px ;
+            color: black;
+        }
+        #submit {
+            margin: 4px 4px 4px 24px;
+            width: 200px;
+            padding: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 3px;
+            background-color: rgba(255, 100, 100, 8);
+            color: #fff;
+            cursor: pointer;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .forms {
+            font-size: 19px;
+        }
+        .name {
+            width: 200px;
+            border: 1px solid #ddd;
+            padding:4px ;
+            border-radius: 3px;
+            outline: none;
+            background-color: #fff;
+            box-shadow: inset 1px 1px 5px rgba(100, 0, 0, 0.8);
+        }
+    </style>
+
+    <!-- Info Body -->
+    <div class="main">
+        <div><h2>Enacts</h2></div>
+            <div class="forms">
+                <div>
+            <form action="table.html" target="_blank" >
+                <label for="userName">UserName:</label><br>
+                <input type="text" id="userName" class="name" >
+
+            </div><br>
+            <div>       
+                <label for="password">Password</label>
+                <input type="password" id="password" class="name">
+
+            </div><br>
+            <div>    
+                <label for="city">City of, <br>Employment</label>
+                <input type="text" id="city" class="name">
+            </div><br>
+            <div>    
+                <label for="sel">Web Server:</label>
+                    <select name="chois" id="sel" class="name">
+                        <option value="chois">--Choose a server--</option>
+                        <option value="chois">Egypt</option>
+                        <option value="chois">Germany</option>
+                        <option value="chois">landone</option>
+                     </select>
+        </div><br>
+        <div>    
+
+            <label for="">Please specify your orle:</label>
+            <input type="radio" value="Admin" id="admin" name="lang">
+            <label for="admin">Admin</label>
+            <input type="radio" id="eng" value="Engineer" name="lang">
+            <label for="eng">Engineer</label>
+            <input type="radio" id="mang" value="Manager" name="lang">
+            <label for="mang">Manager</label>
+            <input type="radio" id="gus" value="Guest" name="lang">
+            <label for="gus" >Guest</label>
+        </div><br>
+        <div>
+            <label for="sign">Single Sign-on <br> the following</label><br>
+            <label for="mail">Mail</label>
+            <input type="checkbox" id="mail"  name="lang">
+            <label for="payroll">Payroll</label>
+            <input type="checkbox" id="payroll"  name="lang">
+            <label for="self-serve">Self-Serve</label>
+            <input type="checkbox" id="self-serve"  name="lang">
+            
+        </div><br>
+        <div>
+            <input type="Submit" value="Login" id="submit">
+            <input type="Reset" value="Reset" id="submit">
+        </div>
+    </form>
+</div>
+</div>
+
+</div>
+</body>
+</html>
